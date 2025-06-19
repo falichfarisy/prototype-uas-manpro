@@ -1,0 +1,52 @@
+.parent {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	gap: 8px;
+}
+
+.div1 {
+	grid-row: span 5 / span 5;
+	background-color: #489fb5;
+	width: 100px;
+    height: 100%;
+	color: #ffffff;
+}
+
+.div2 {
+	grid-column: span 4 / span 4;
+	grid-row: span 5 / span 5;
+}
+
+.border-template {
+	background-color: #f3f9fa;
+	box-shadow: 4px 7px 6px rgba(0, 0, 0, 0.3); /* warna bisa disesuaikan */
+}
+
+.primary-text {
+	color: #489fb5;
+}
+
+.primary-border {
+	background-color: #489fb5;
+	color: #ede7e3;
+    border: none;
+}
+
+.sign:hover {
+    color: #979fa1;
+}
+
+.secondary-text {
+	color: #ffffff;
+}
+
+.logo {
+	width: 80px;
+	height: 70px;
+	background-color: #979fa1;
+}
+
+.sidebar {
+	width: 250px;
+}
